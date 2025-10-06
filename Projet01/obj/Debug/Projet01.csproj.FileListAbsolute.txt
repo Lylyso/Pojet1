@@ -1,0 +1,22 @@
+C:\Users\kachm\OneDrive\Bureau\prog 1206\Projet01\bin\Debug\Projet01.exe.config
+C:\Users\kachm\OneDrive\Bureau\prog 1206\Projet01\bin\Debug\Projet01.exe
+C:\Users\kachm\OneDrive\Bureau\prog 1206\Projet01\bin\Debug\Projet01.pdb
+C:\Users\kachm\OneDrive\Bureau\prog 1206\Projet01\obj\Debug\Projet01.csproj.AssemblyReference.cache
+C:\Users\kachm\OneDrive\Bureau\prog 1206\Projet01\obj\Debug\Projet01.marqueVetementsForm1.resources
+C:\Users\kachm\OneDrive\Bureau\prog 1206\Projet01\obj\Debug\Projet01.Properties.Resources.resources
+C:\Users\kachm\OneDrive\Bureau\prog 1206\Projet01\obj\Debug\Projet01.csproj.GenerateResource.cache
+C:\Users\kachm\OneDrive\Bureau\prog 1206\Projet01\obj\Debug\Projet01.csproj.CoreCompileInputs.cache
+C:\Users\kachm\OneDrive\Bureau\prog 1206\Projet01\obj\Debug\Projet01.exe
+C:\Users\kachm\OneDrive\Bureau\prog 1206\Projet01\obj\Debug\Projet01.pdb
+C:\Users\kachm\OneDrive\Bureau\prog 1206\Projet01\obj\Debug\Projet01.exe.config
+C:\Users\fiand\OneDrive\Documents\COURS 2025\1er Session\PROG1236\Projet\Projet01\obj\Debug\Projet01.csproj.AssemblyReference.cache
+C:\Users\fiand\OneDrive\Documents\COURS 2025\1er Session\PROG1236\Projet\Projet01\obj\Debug\Projet01.exe.config
+C:\Users\fiand\OneDrive\Documents\COURS 2025\1er Session\PROG1236\Projet\Projet01\obj\Debug\Projet01.exe
+C:\Users\fiand\OneDrive\Documents\COURS 2025\1er Session\PROG1236\Projet\Projet01\obj\Debug\Projet01.pdb
+C:\Users\fiand\OneDrive\Documents\COURS 2025\1er Session\PROG1236\Projet\Projet01\bin\Debug\Projet01.exe.config
+C:\Users\fiand\OneDrive\Documents\COURS 2025\1er Session\PROG1236\Projet\Projet01\bin\Debug\Projet01.exe
+C:\Users\fiand\OneDrive\Documents\COURS 2025\1er Session\PROG1236\Projet\Projet01\bin\Debug\Projet01.pdb
+C:\Users\fiand\OneDrive\Documents\COURS 2025\1er Session\PROG1236\Projet\Projet01\obj\Debug\Projet01.marqueVetementsForm1.resources
+C:\Users\fiand\OneDrive\Documents\COURS 2025\1er Session\PROG1236\Projet\Projet01\obj\Debug\Projet01.Properties.Resources.resources
+C:\Users\fiand\OneDrive\Documents\COURS 2025\1er Session\PROG1236\Projet\Projet01\obj\Debug\Projet01.csproj.GenerateResource.cache
+C:\Users\fiand\OneDrive\Documents\COURS 2025\1er Session\PROG1236\Projet\Projet01\obj\Debug\Projet01.csproj.CoreCompileInputs.cache
