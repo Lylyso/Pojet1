@@ -52,7 +52,7 @@ namespace Projet01
         }
 
         #endregion
-        private void policeToolStripComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void policeToolStripComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             AdapterPoliceRichTextBox();
         }
@@ -74,4 +74,8 @@ namespace Projet01
         }
 
     }
+
+    //lydianne
+
+
 }

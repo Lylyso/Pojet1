@@ -61,7 +61,7 @@
             // 
             this.policeToolStripComboBox.Name = "policeToolStripComboBox";
             this.policeToolStripComboBox.Size = new System.Drawing.Size(136, 33);
-            this.policeToolStripComboBox.SelectedIndexChanged += new System.EventHandler(this.policeToolStripComboBox1_SelectedIndexChanged);
+            this.policeToolStripComboBox.SelectedIndexChanged += new System.EventHandler(this.policeToolStripComboBox_SelectedIndexChanged);
             // 
             // vetementPictureBox
             // 
