@@ -1,6 +1,6 @@
 ﻿namespace Projet01
 {
-    partial class marqueVetementsForm
+    partial class MarqueVetementsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(marqueVetementsForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MarqueVetementsForm));
             this.policeMenuStrip = new System.Windows.Forms.MenuStrip();
             this.policeToolStripComboBox = new System.Windows.Forms.ToolStripComboBox();
             this.vetementPictureBox = new System.Windows.Forms.PictureBox();
-            this.tailleLabel = new System.Windows.Forms.Label();
+            this.marqueLabel = new System.Windows.Forms.Label();
             this.vetementRichTextBox = new System.Windows.Forms.RichTextBox();
             this.imprimerButton = new System.Windows.Forms.Button();
             this.rechercheGroupBox = new System.Windows.Forms.GroupBox();
-            this.affichageButton = new System.Windows.Forms.Button();
-            this.tailleRechercherlabel = new System.Windows.Forms.Label();
+            this.compteurMarqueButton = new System.Windows.Forms.Button();
+            this.marqueRechercherlabel = new System.Windows.Forms.Label();
             this.rechercheTextBox = new System.Windows.Forms.TextBox();
             this.policeMenuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.vetementPictureBox)).BeginInit();
@@ -61,7 +61,7 @@
             // 
             this.policeToolStripComboBox.Name = "policeToolStripComboBox";
             this.policeToolStripComboBox.Size = new System.Drawing.Size(136, 33);
-            this.policeToolStripComboBox.SelectedIndexChanged += new System.EventHandler(this.policeToolStripComboBox_SelectedIndexChanged);
+            this.policeToolStripComboBox.SelectedIndexChanged += new System.EventHandler(this.PoliceToolStripComboBox_SelectedIndexChanged);
             // 
             // vetementPictureBox
             // 
@@ -75,15 +75,15 @@
             this.vetementPictureBox.TabIndex = 1;
             this.vetementPictureBox.TabStop = false;
             // 
-            // tailleLabel
+            // marqueLabel
             // 
-            this.tailleLabel.AutoSize = true;
-            this.tailleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tailleLabel.Location = new System.Drawing.Point(14, 372);
-            this.tailleLabel.Name = "tailleLabel";
-            this.tailleLabel.Size = new System.Drawing.Size(510, 20);
-            this.tailleLabel.TabIndex = 2;
-            this.tailleLabel.Text = "Taille de vetement :  (selection indique la marque de vetement)";
+            this.marqueLabel.AutoSize = true;
+            this.marqueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.marqueLabel.Location = new System.Drawing.Point(14, 372);
+            this.marqueLabel.Name = "marqueLabel";
+            this.marqueLabel.Size = new System.Drawing.Size(604, 20);
+            this.marqueLabel.TabIndex = 2;
+            this.marqueLabel.Text = "Marque de vetement :  (selection indique plusieurs marques de vêtements)";
             // 
             // vetementRichTextBox
             // 
@@ -108,8 +108,8 @@
             // 
             // rechercheGroupBox
             // 
-            this.rechercheGroupBox.Controls.Add(this.affichageButton);
-            this.rechercheGroupBox.Controls.Add(this.tailleRechercherlabel);
+            this.rechercheGroupBox.Controls.Add(this.compteurMarqueButton);
+            this.rechercheGroupBox.Controls.Add(this.marqueRechercherlabel);
             this.rechercheGroupBox.Controls.Add(this.rechercheTextBox);
             this.rechercheGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rechercheGroupBox.Location = new System.Drawing.Point(17, 760);
@@ -121,25 +121,26 @@
             this.rechercheGroupBox.TabStop = false;
             this.rechercheGroupBox.Text = "Recherche";
             // 
-            // affichageButton
+            // compteurMarqueButton
             // 
-            this.affichageButton.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.affichageButton.Location = new System.Drawing.Point(10, 101);
-            this.affichageButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.affichageButton.Name = "affichageButton";
-            this.affichageButton.Size = new System.Drawing.Size(735, 66);
-            this.affichageButton.TabIndex = 2;
-            this.affichageButton.Text = "Afficher le nombre des marques";
-            this.affichageButton.UseVisualStyleBackColor = false;
+            this.compteurMarqueButton.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.compteurMarqueButton.Location = new System.Drawing.Point(10, 101);
+            this.compteurMarqueButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.compteurMarqueButton.Name = "compteurMarqueButton";
+            this.compteurMarqueButton.Size = new System.Drawing.Size(735, 66);
+            this.compteurMarqueButton.TabIndex = 2;
+            this.compteurMarqueButton.Text = "Afficher le nombre des marques";
+            this.compteurMarqueButton.UseVisualStyleBackColor = false;
+            this.compteurMarqueButton.Click += new System.EventHandler(this.CompteurMarqueButton_Click);
             // 
-            // tailleRechercherlabel
+            // marqueRechercherlabel
             // 
-            this.tailleRechercherlabel.AutoSize = true;
-            this.tailleRechercherlabel.Location = new System.Drawing.Point(7, 42);
-            this.tailleRechercherlabel.Name = "tailleRechercherlabel";
-            this.tailleRechercherlabel.Size = new System.Drawing.Size(346, 20);
-            this.tailleRechercherlabel.TabIndex = 1;
-            this.tailleRechercherlabel.Text = "La taille recherchée (S, M, L, XL ou XXL) :";
+            this.marqueRechercherlabel.AutoSize = true;
+            this.marqueRechercherlabel.Location = new System.Drawing.Point(7, 42);
+            this.marqueRechercherlabel.Name = "marqueRechercherlabel";
+            this.marqueRechercherlabel.Size = new System.Drawing.Size(596, 20);
+            this.marqueRechercherlabel.TabIndex = 1;
+            this.marqueRechercherlabel.Text = "La marque recherchée (Zara, Levi\'s, Dior, Nike, Guess, Mango, Simons ) :";
             // 
             // rechercheTextBox
             // 
@@ -149,7 +150,7 @@
             this.rechercheTextBox.Size = new System.Drawing.Size(734, 25);
             this.rechercheTextBox.TabIndex = 0;
             // 
-            // marqueVetementsForm
+            // MarqueVetementsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -158,14 +159,15 @@
             this.Controls.Add(this.rechercheGroupBox);
             this.Controls.Add(this.imprimerButton);
             this.Controls.Add(this.vetementRichTextBox);
-            this.Controls.Add(this.tailleLabel);
+            this.Controls.Add(this.marqueLabel);
             this.Controls.Add(this.vetementPictureBox);
             this.Controls.Add(this.policeMenuStrip);
             this.MainMenuStrip = this.policeMenuStrip;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "marqueVetementsForm";
+            this.Name = "MarqueVetementsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Marques de vetements";
+            this.Load += new System.EventHandler(this.MarqueVetementsForm_Load);
             this.policeMenuStrip.ResumeLayout(false);
             this.policeMenuStrip.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.vetementPictureBox)).EndInit();
@@ -181,13 +183,13 @@
         private System.Windows.Forms.MenuStrip policeMenuStrip;
         private System.Windows.Forms.ToolStripComboBox policeToolStripComboBox;
         private System.Windows.Forms.PictureBox vetementPictureBox;
-        private System.Windows.Forms.Label tailleLabel;
+        private System.Windows.Forms.Label marqueLabel;
         private System.Windows.Forms.RichTextBox vetementRichTextBox;
         private System.Windows.Forms.Button imprimerButton;
         private System.Windows.Forms.GroupBox rechercheGroupBox;
         private System.Windows.Forms.TextBox rechercheTextBox;
-        private System.Windows.Forms.Button affichageButton;
-        private System.Windows.Forms.Label tailleRechercherlabel;
+        private System.Windows.Forms.Button compteurMarqueButton;
+        private System.Windows.Forms.Label marqueRechercherlabel;
     }
 }
 
