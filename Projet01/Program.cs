@@ -16,7 +16,7 @@ namespace Projet01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new marqueVetementsForm());
+            Application.Run(new MarqueVetementsForm());
         }
     }
 }
